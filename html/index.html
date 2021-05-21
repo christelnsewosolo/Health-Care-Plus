@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Care +</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/reusable.css">
+
+  </head>
+
+  <body>
+    <header class="heading">
+      <div class="heading__left">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="heading__center">
+        <a id="home_nav" href="index.html">
+          <img
+            id="logo_nav"
+            src="../images/girl_mask.svg"
+            alt="Cartoon girl with mask"
+          />
+          
+        </a>
+      </div>
+      <div class="heading__right">
+        <i class="fas fa-user"></i>
+      </div>
+    </header>
+
+    <div class="caroussel">
+      <div class="caroussel__item caroussel__item__visible">
+        <img src="../images/covid2.jpeg" alt="covid2" />
+      </div>
+      <div class="caroussel__item">
+        <img src="../images/covid3.jpeg" alt="covid3" />
+      </div>
+      <div class="caroussel__item">
+        <h1 class="title">COVID-19</h1>
+        <h2 class="subtitle">SYMPTOMS</h2>
+        <div class="symptoms">
+          <div class="symptoms__left"></div>
+          <div class="symptoms__center">
+            <div class="symptom">
+              <p>
+                symptom 1 is Lorem Ipsum passages, and more recently with
+                desktop publishing software like Aldus PageMaker including
+                versions of Lorem Ipsum
+              </p>
+            </div>
+            <div class="symptom">
+              <p>
+                symptom 2 is Contrary to popular belief, Lorem Ipsum is not
+                simply random text. It has roots
+              </p>
+            </div>
+            <div class="symptom">
+              <p>
+                symptom 3 is Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more
+                obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                and going through the cites
+              </p>
+            </div>
+          </div>
+          <div class="symptoms__right"></div>
+        </div>
+      </div>
+
+      <div class="caroussel__actions">
+        <button id="caroussel__button__prev" aria-label="Previous Slide">
+          <
+        </button>
+        <button id="caroussel__button__next" aria-label="Next Slide">></button>
+      </div>
+
+      <div class="caroussel__dots">
+        <span class="caroussel__dot active" onclick="showSlide(0)"></span>
+        <span class="caroussel__dot" onclick="showSlide(1)"></span>
+        <span class="caroussel__dot" onclick="showSlide(2)"></span>
+      </div>
+    </div>
+
+    <p id="death_number">
+      CURRENT DEATH TOLL: <span class="red">3,334,701</span>
+    </p>
+
+    <section id="container" class="center_text">
+      <div>
+        <a href="covid_background.html"><h3>Covid 19 Background</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="vaccines.html"><h3>Vaccine information</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="timeline.html"><h3>Time Line</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="infographics.html"><h3>Infographics</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="travel.html"><h3>World and travel</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="wellbeing.html"><h3>Well Being</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="wellbeing.html"><h3>Well Being</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+      <div>
+        <a href="wellbeing.html"><h3>Well Being</h3></a>
+        <ul>
+          <li>1..............</li>
+          <li>2..............</li>
+          <li>3..............</li>
+        </ul>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class = "footer-position">
+      <div class="footer-container">
+        <div class="subscribe">
+          <h2>Subscribe to our page via Email for updates</h2>
+          <p>Blank blank fake contact information will go here</p>
+          <div class="subscribe-form">
+            <input type="text" placeholder="Email Address" />
+            <div class="btn">Subscribe</div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="col1">
+            <p>+1- fake number</p>
+            <p>fake info</p>
+            <p>fake info</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="socials">
+        <p>fake info</p>
+
+        <div class="social-icons">
+          <img src="./images/instagram.png" alt="" />
+          <img src="./images/twitter.png" alt="" />
+          <img src="./images/fb.png" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="../JS/index.js"></script>
+  </body>
+</html>
