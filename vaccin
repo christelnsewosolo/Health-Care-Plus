@@ -1,0 +1,205 @@
+<html>
+
+<head>
+
+
+  <title>THE VACCINES</title>
+<link rel="stylesheet" href="covidapp.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1 style="color: blue;">INFO ABOUT COVID 19- THE vaccination </h1>
+  </header>
+
+
+  <style>
+    h1 {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    h2 {
+      text-decoration: underline;
+    }
+
+    h3 {
+      text-decoration: underline;
+
+    }
+
+    h4 {
+      text-decoration: underline;
+    }
+
+    h5 {
+      text-decoration: underline;
+    }
+  </style>
+
+
+  <img src="vaccin.png" width="200" alt="logo" align="left" /><br>
+
+  <h2 style="font: size 35px;">  The coronavirus (COVID-19) vaccine is safe and effective. It gives you the best protection against COVID-19.
+  </h2>
+
+
+
+  <nav id="my nav"><br>
+  </nav>
+
+  <main>
+
+    <section>
+      <ul>
+        <a href="#section1">Coronavirus(COVID-19) vaccine</a><br />
+        <a href="#section2">Who can get the vaccine</a><br />
+        <a href="#section3">how you will be contacted</a><br />
+        <a href="#section4">what happens at your appointement</a><br />
+        <a href="#section5">heath conditions and covid 19 vaccination</a><br />
+      </ul>
+
+      <div>
+        <blockquote>
+
+          <h2 id="section1">Coronavirus(COVID-19) vaccine</h2>
+
+          <p>
+            The COVID-19 vaccine is given as an injection into your upper arm.
+
+            It's given as 2 doses. You will have the 2nd dose 3 to 12 weeks after having the 1st dose.
+
+            You will have 2 doses of the same vaccine.</p>
+
+
+          <h2 id="section2">Who can get the vaccine</h3>
+
+          <p>
+
+            The NHS is currently offering the COVID-19 vaccine to people most at risk.
+
+            In England, the COVID-19 vaccine is being offered in some hospitals and pharmacies, at local centres run by
+            GPs and at larger vaccination centres. More centres are opening all the time.</p><br>
+
+          <p> It's being given to:
+
+            people aged 40 and over
+            people who will turn 40 before 1 July 2021
+            people at high risk from COVID-19 (clinically extremely vulnerable)
+            people who live or work in care homes
+            health and social care workers
+            people with a condition that puts them at higher risk (clinically vulnerable)
+            people with a learning disability
+            people who are a main carer for someone at high risk from COVID-19 </p>
+          <img />
+
+
+          <article>
+
+            <img />
+
+            <h2 id="section3">How you will be contacted</h4>
+
+            <p> The NHS will let you know when it's your turn to have the coronavirus (COVID-19) vaccination.
+
+              The vaccine is being offered at larger vaccination centres, pharmacies and some local NHS services such as
+              hospitals or GP surgeries.
+
+              More people are being offered the vaccine every week. </p>
+
+
+            <h2 id="section4">What happens at your appointement</h5>
+
+            <p>
+              What happens at your coronavirus (COVID-19) vaccination appointment
+              When it's your turn to have the coronavirus (COVID-19) vaccine, you'll get a letter, phone call, email or
+              text inviting you for an appointment.
+
+              You need to have 2 doses of the vaccine and to go to 2 appointments.
+
+              The 1st dose of the COVID-19 vaccine should give you good protection from COVID-19.
+              But you need to have the 2 doses of the vaccine to give you longer lasting </p><br>
+
+            <p>You may be invited to have your vaccination at:
+
+              a hospital
+              your GP surgery
+              a vaccination centre
+              a pharmacy
+              What happens on the day
+              What to bring
+              You'll need to bring:
+
+              a face covering, unless you cannot wear one for a health or disability reason
+              your booking reference numbers if your appointment is at a vaccination centre
+              If you need a carer you can bring them with you on the day.</p><br>
+
+            <p>
+              Your appointment should last for around 30 to 45 minutes.
+
+              You'll be asked some questions about your medical history.
+
+              It's important to tell the staff giving you the vaccination if you have ever had a severe allergic
+              reaction or you are pregnant.</p><br>
+
+            <p>your appointment is at a vaccination centre, you'll be asked for your booking reference numbers.
+
+              You will then be given an injection of the vaccine into your upper arm.
+
+              All places that offer COVID-19 vaccinations will help keep you safe from COVID-19. There will be regular
+              cleaning and social distancing in waiting areas.</p></BR>
+
+              After the vaccination
+              You may be asked to wait for 15 minutes after having the vaccination. This is in the unlikely event you
+              have a serious reaction to the vaccine.
+
+              Research has found it's very rare to have a serious allergic reaction to the vaccine. If this does happen,
+              it usually happens within minutes.
+
+              The team are trained to deal with reactions and treat them immediately.
+
+              You will also be given a leaflet about what to expect after your vaccination to take home with you.</p>
+
+
+            <h2 id="section5">Heath conditions and covid 19 vacci nation</h2>
+
+              <p>
+                Health conditions and coronavirus (COVID-19) vaccination
+                The following charities have worked with the NHS to produce advice about the coronavirus (COVID-19)
+                vaccine and certain health conditions.
+
+                If you have a health condition that means you are eligible for the COVID-19 vaccine, or you are
+                an adult carer, the NHS will contact you to arrange your vaccination appointment.
+              </p>
+
+
+              </p>
+              </blockquote>
+          </article>
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+  <footer>
+    <a href="https://www.nhsinform.scot">NHS Inform:covid-19 vaccination
+    </a><br>
+
+    <a href=" https://www.phw.nhs.wales">Wales – Public Health Wales: COVID-19 vaccination</a><br>
+
+    <a href="https://www.nidirect.gov.uk">
+      Northern Ireland - nidirect: COVID-19 vaccination</a>
+
+  </footer>
+
+</body>
+
+
+</html>
